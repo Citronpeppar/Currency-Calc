@@ -8,8 +8,35 @@
   <title>Currency Calculator</title>
 </head>
 <body>
+  <div class="container">
+    <h2>
+    Valutaräknare
+    </h2>
 
-  
+    <form>
+      <input type="number">
+      <select>
+        <option>EUR</option>
+        <option>USD</option>
+        <option>GBP</option>
+      </select>
+      <label>Konvertera till:</label>
+      <select>
+        <option>EUR</option>
+        <option>USD</option>
+        <option>GBP</option>
+      </select>
+      <button>Tryck här</button>
+    </form>
+    <div class="result">
+      <p>
+        <span class="given-amount"></span> 
+        <span class="base-currency"></span>
+        <span class="final-result"></span> 
+        <span class="second-currency"></span>
+      </p>
+    </div>
+  </div>
   
 </body>
 </html>
